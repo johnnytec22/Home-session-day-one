@@ -112,13 +112,5 @@ Computer.prototype.constructor = Computer;
 Calculator.prototype = new Computer();
 Calculator.prototype.constructor = Calculator;
 
+//exporting class Calculator for testing with jasmine
 module.exports = Calculator;
-
-
-/*
-var c = new Computer('pc','lenovo', '500GB' );
-
-console.log(c.displayInfo());
-console.log(c.getType());
-console.log(c.storage_size);
-*/
