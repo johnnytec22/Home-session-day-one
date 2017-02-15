@@ -1,0 +1,508 @@
+
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: sans-serif, Arial, helvetica;
+    background: lightgray;
+    
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dark {
+    color: white;
+    background: #2f2e46;
+    
+}
+
+
+
+header .current a, header .hightlight{
+   color: #eb2e2e; 
+   font-weight: bold;
+}
+
+header {
+    background: #2f2e46;
+    color: white; 
+    min-height: 60px;
+    border-bottom: #eb2e2e 4px solid;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    
+}
+header a:hover{
+    color: #cccccc;
+}
+
+header li {
+    padding-left: 20px;
+    display: inline;
+    
+}
+
+header #branding {
+    float: left;
+    padding: 0;
+}
+
+
+header nav {
+    margin-top: 30px;
+    float: right;
+}
+
+.showcase {
+    /*background-color: skyblue;*/
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.showcase h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.showcase p {
+    font-family: segeo UI;
+    font-size: 20px;
+}
+
+.showcase button {
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#servicedp {
+    background: url('showcaseNew (2).png') no-repeat -400px 0;
+}
+
+#aboutdp {
+    background: url('showcaseNew (2).png') no-repeat -400px 0;
+}
+
+#homedp {
+    background: url('showcaseNew (2).png') no-repeat -400px 0;
+}
+
+#newletter {
+    border-top: 4px solid white;
+    min-height: 60px;
+    background: #2f2e46;
+    color: white;
+}
+
+#newletter h1 {
+    font-size: 25px;
+    font-family: Gothic;
+    margin-top: 25px;
+    float: left;
+}
+
+#newletter form {
+    margin-top: 25px;
+    float: right;
+    margin-bottom: 5px;
+}
+
+#newletter form input {
+    width: 300px;
+    margin-left: 5px;
+    height: 24px;
+    padding: 4px 0 2px 5px;
+    font-size: 14px;
+    color: #2f2e46;
+    border: none;
+    border-radius: 2px;
+    background: white;
+}
+
+.button_1 {
+    height: 30px;
+    width: 100px;
+    font-family: Gothic;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background: #eb2e2e;
+}
+
+#boxes {
+    margin-top: 30px;
+}
+
+.box {
+    background: white;
+    border-radius: 4px;
+    margin-right: 10px;
+    text-align: center;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    
+    
+}
+
+.box img {
+    width: 60%;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+footer {
+    margin-top: 20px;
+    background: #eb2e2e;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    min-height: 60px;
+    padding-top: 20px;
+    
+}
+
+/*About*/
+
+#main {
+    margin-top: 50px;
+}
+
+#main-col {
+    border: 1px solid white;
+    text-align: justify;
+    background: white;
+    color: gray;
+    width: 40%;
+    padding: 30px;
+    float: left;
+}
+
+#main h1, #main #sidebar h3 {
+    text-align: center;
+}
+#main #sidebar {
+    margin-right: 50px;
+    float: right;
+    width: 25%;
+    text-align: justify;
+    padding: 30px 10px 30px 10px;
+    border-top: 4px solid red;
+}
+
+/*service page*/
+
+
+
+
+#service_article {
+    float: left;
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    background: transparent;
+    color: black;
+    margin-bottom: 10px;
+}
+#service_article h1{
+    font-size: 30px;
+    color: #2f2e46;
+}
+
+#services{
+    padding: 0;
+    margin-top: 30px;
+    border-radius: 4px;
+    list-style: none;
+    color: black;
+}
+
+#services li {
+    padding: 30px;
+    margin: 10px 10px 50px 10px;
+    background: white;
+    color: black;
+}
+
+#services li h3 {
+    font-size: 20px;
+}
+
+#services li p {
+    font-family: Helvetica;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#service_sidebar {
+    text-align: center;
+    margin-top: 100px;
+    float: right;
+    width: 35%;
+    min-height: 200px;
+    padding: 10px;
+    color: white;
+    background: #2f2e46;
+    
+}
+
+#services li p.pricing {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#service_sidebar input, #service_sidebar textarea{
+    width: 90%;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    border: none;
+}
+
+#service_sidebar textarea {
+    height: 100px;
+}
+
+
+/*media Querries*/
+
+@media (max-width: 768px){
+    
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    
+    header #branding,
+    header nav,
+    header nav ul,
+    header nav ul li,
+    .showcase h1,
+    .showcase p,
+    #newletter h1,
+    #newletter form{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul  {
+        padding: 0;
+    }
+    
+    
+    
+    .showcase h1{
+        margin-top: 40px;
+    }
+    
+    section#aboutdp h1{
+        margin-top: 70px;
+    }
+    
+    header nav ul li {
+        padding: 20px;
+    }
+    
+    .showcase button {
+        margin-bottom: 10px;
+    }
+    
+    #newletter form {
+        margin-bottom: 20px;
+    }
+    
+   
+    
+    .box img {
+        width: 200px;
+    }
+    
+    .box {
+        padding: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        float: none;
+        width: 90%;
+    }
+    
+    #main-col{
+        border-radius: 0;
+        padding: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        float: none;
+        width: 90%;
+    }
+    #main-col h1 {
+        padding: 5px;
+        font-size: 25px;
+        
+    }
+    
+    #main-col h1,
+    #main-col p {
+        line-height: 1.8;
+        width: 100%;
+    }
+    
+    #main #sidebar{
+        border-radius: 0;
+        border: none;
+        padding: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        float: none;
+        width: 90%;
+    }
+    #main #sidebar p {
+        line-height: 1.5;
+    }
+    
+    #service_article {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 90%;
+    }
+    
+    #service_sidebar {
+        border-radius: 0;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 90%;
+    }
+    
+    #service_sidebar input, #service_sidebar textarea {
+        margin: 10px auto 10px auto;
+        width: 95%;
+    }
+    
+    #services h3,
+    #services p 
+    {
+        line-height: 1.5;
+    }
+    
+}
+
+@media (max-width: 990px){
+    #newletter h1,
+    #newletter form
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #newletter form {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 500px)
+{
+    #newletter form input,
+    #newletter form  button
+    {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #newletter form input {
+        padding: 4px 0 4px 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .showcase {
+        /*background-color: skyblue;*/
+        height: 400px;
+        text-align: center;
+        color: white;
+    }
+
+
+
+    .showcase h1 {
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .showcase p {
+        line-height: 1;
+        font-family: Arial;
+        font-size: 17px;
+    }
+}
+
+@media (max-width:345px)
+{
+
+    header nav ul li{
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0 0 10px 0;
+    
+    }
+
+    .showcase {
+        /*background-color: skyblue;*/
+        height: 400px;
+        text-align: center;
+        color: white;
+    }
+
+
+
+    .showcase h1 {
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+
+    .showcase p {
+        font-family: Arial;
+        line-height: 1;
+        font-family: segeo UI;
+        font-size: 17px;
+    }
+
+}
